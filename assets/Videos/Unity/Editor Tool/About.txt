@@ -1,0 +1,40 @@
+
+0:
+unity editor code to build a terrain
+- random
+- texture
+- single Perlin noise 
+- multi Perlin noise (fractal Brownian motion)
+- voronoi 
+-midpoint displacement
+
+and for sure simple smoothing based on blurring technique
+
+
+---------
+1:
+Terrain Texturing based on slope and height
+- controlling texture offset, size and blending to get the desired result
+
+---------
+2:
+Texture Procedural Generation for heightmaps, noise, ....
+
+----------
+3:
+Trees
+
+--------
+4:
+Terrain Details
+
+----------
+5:
+Water and Shoreline
+Natural Exposure 
+- Rain
+- Thermal
+- Tidal
+- River
+- Wind
+- Canyon

@@ -1,0 +1,11 @@
+a minecraft like environment build
+
+- fast random build using Perlin noise and Fractal Brownian motion
+- chunks generation and deletion around the player while he is moving
+- data save and load for better performance
+- can add blocks or destroy blocks
+- blocks auto heal after few seconds (if not destroyed)
+- sand blocks fall using gravity
+- water blocks spread
+
+i learned this from udemy but I am still happy as i added to my knowledge new thing
