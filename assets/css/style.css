@@ -1872,7 +1872,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     opacity: 0;
   }
 
-  .social-list { justify-content: center; }
+  .social-list { justify-content: center; margin-left:-10px;}
 
 
 
