@@ -1114,7 +1114,10 @@ main {
   line-height: 1.6;
 }
 
-
+video {
+  display: block;
+  margin: auto;
+}
 
 
 
