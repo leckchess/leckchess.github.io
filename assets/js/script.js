@@ -118,6 +118,12 @@ for (let i = 0; i < navigationLinks.length; i++) {
       } else {
         pages[i].classList.remove("active");
         navigationLinks[i].classList.remove("active");
+		var videos = pages[i].getElementsByTagName('video');
+		for(let v=0;v < videos.length;v++)
+		{
+			videos[v].pause();
+			videos[v].currentTime = 0;
+		}
       }
     }
 
