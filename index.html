@@ -1,3030 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Huda Rasmey Portfolio</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Huda Rasmey — Unity &amp; Unreal game programmer specializing in gameplay systems, multiplayer, and the Gameplay Ability System (GAS).">
+<title>Huda Rasmey — Unity &amp; Unreal Game Programmer</title>
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+<link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+<link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-<!--
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
--->
-        <div class="info-content">
-          <h1 class="name" title="Huda Rasmey">Huda Rasmey</h1>
-
-          <p class="title">Unity/Unreal Game Developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:huda.rasmey.sc@gmail.com" class="contact-link">huda.rasmey.sc@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+201009394396" class="contact-link">(+971) 50-395-0918</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Abu-Dhabi, UAE</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/huda-rasmey-6639a120" class="social-link" target=”_blank”>
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-		  
-		  <li class="social-item">
-              <a href="./assets/HudaRasmey_CV.pdf" class="social-link"  target=”_blank”>CV</a>
-		  </li>
-		  
-        </ul>
-
-      </div>
-
-    </aside>
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" id="About" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" id="Resume" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" id="Projects" data-nav-link>Projects</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" id="Contact" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I'm a game developer who loves creating fun and engaging experiences. I specialize in writing code that brings games to life, from the core mechanics to the final polish. My focus is on making sure everything runs smoothly and feels just right for the player. My focus is on making games that players enjoy and remember. 
-          </p>
-
-          <p>
-            I enjoy solving the technical challenges that come with game development, whether it's optimizing performance, implementing complex systems, or debugging tricky issues. I believe in writing clean, efficient code that’s easy to work with and maintain.
-          </p>
-		  
-		  <p>
-		  Collaboration is key for me, and I enjoy working with designers, artists, and other developers to bring ideas to life. I'm always learning new techniques and staying up-to-date with the latest in game development to keep improving my craft.
-		  </p>
-		  
-		  <p>
-		  Let’s create something fun and memorable together!
-		  </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/GameMechanicsIcon.png
-                " alt="Mechanics icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Design and Develop Game Features</h4>
-
-                <p class="service-item-text">
-                  Designing and implementing core game features that define the gameplay experience.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/PerformanceIcon.png" alt="Performance icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Optimize Game Performance</h4>
-
-                <p class="service-item-text">
-                  Ensure that the game runs efficiently across all target platforms by optimizing code, reducing load times, and minimizing memory usage.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/CommunicationIcon.png" alt="Communication icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Collaborate with Cross-Functional Teams</h4>
-
-                <p class="service-item-text">
-                  Work closely with designers, artists, and sound engineers to integrate assets and ensure the game’s visual and audio elements complement the gameplay.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/TestingIcon.png" alt="Testing icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Test and Debug Games</h4>
-
-                <p class="service-item-text">
-                  Perform regular testing of game features to identify bugs and issues.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Companies I Worked With</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-			<li class="clients-item">
-              <a href="https://mywhoosh.com/" target=”_blank”>
-                <img src="./assets/images/Mywhoosh.png" alt="client logo">
-              </a>
-            </li>
-			
-            <li class="clients-item">
-              <a href="https://ironbellystudios.com/" target=”_blank”>
-                <img src="./assets/images/IronBelly.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.instinctgames.com/" target=”_blank”>
-                <img src="./assets/images/InstinctGames.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://iti.gov.eg/home" target=”_blank”>
-                <img src="./assets/images/iti.png" alt="client logo">
-              </a>
-            </li>
-			
-			<li class="clients-item">
-              <a href="https://funrock.com/" target=”_blank”>
-                <img src="./assets/images/FunRock.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.toptal.com/" target=”_blank”>
-                <img src="./assets/images/toptal-logo.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.linkedin.com/company/p1-games" target=”_blank”>
-                <img src="./assets/images/p1games.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-	  
-        <header>
-          <h2 class="h2 article-title">Resume <a href="./assets/HudaRasmey_CV.pdf" class="h4 timeline-item-title" target=”_blank”> (Download Full CV) </a></h2>
-        </header>
-
-		<section class="skill">
-
-          <h3 class="h3 skills-title">Skills</h3>
-
-          <ul class="skills-list content-card">
-
-			<li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Unity</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">C#</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-			
-			<li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Unreal</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">C++</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-
-            </li>
-			
-			<li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">GAS (Gameplay Ability System)</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Game design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Leadership</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Project Management</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-     
-        <section class="timeline">
-		
-		 <div class="title-wrapper">
-            <h3 class="h3"> </h3>
-          </div>
-		  
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-			<li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Unreal Game Programmer</h4>
-			  <span> Avroic Technologies (My Whoosh) </span>
-              <span>6/2025 — Present</span>
-
-              <ul>
-			  <li class="timeline-text"> - Implemented core gameplay systems Using Unreal and C++. </li>
-			  <li class="timeline-text"> - Developed modular, data-driven gameplay components to support scalability. </li>
-			  </ul>
-
-            </li>
-			
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Unreal Game Programmer</h4>
-			  <span> IronBelly Studios </span>
-              <span>1/2023 — 8/2024</span>
-
-              <ul>
-			  <li class="timeline-text"> - Developing PC Games Using Unreal and C++. </li>
-			  <li class="timeline-text"> - Build new features (Queue system using new input system and GAS, AI plugin, ... etc). </li>
-			  <li class="timeline-text"> - Enhance old code and add new features (Throwable system, .. etc) </li>
-			  <li class="timeline-text"> - Lead fresh men and guide them during onboarding process. </li>
-			  </ul>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Senior Unreal Game Programmer</h4>
-			  <span> Instinct Games </span>
-              <span>4/2021 — 1/2023</span>
-
-              <ul>
-			  <li class="timeline-text"> - Developing PC Games Using Unreal and C++. </li>
-			  <li class="timeline-text"> - Communicate with VFX team and integrate their work. </li>
-			  <li class="timeline-text"> - Collaborate with QA to tack and fix bugs. </li>
-			  </ul>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Lead Unity Game Developer</h4>
-
-              <span>Besteam</span>
-              <span>6/2020 — 2/2021</span>
-
-              <ul>
-			  <li class="timeline-text"> - Develop robotics Competition Levels for kids to compete from home using Unity 3D and webGL. </li>
-			  <li class="timeline-text"> - Manage the team to deliver tasks on time. </li>
-			  </ul>
-
-            </li>
-			
-			<li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Senior Unity Game Developer</h4>
-
-              <span>FunRock</span>
-              <span>7/2018 — 3/2019</span>
-
-              <ul>
-			  <li class="timeline-text"> - program game frontend and UI for Android and IOS platforms. </li>
-			  <li class="timeline-text"> - Build new features (reinforcement system, Events and Quests system, etc. </li>
-			  </ul>
-
-            </li>
-			
-			<li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Lead Unity Game Developer</h4>
-
-              <span>5D-VR</span>
-              <span>3/2015 — 2/2018</span>
-
-              <ul>
-			  <li class="timeline-text"> - manage and develop virtual reality games using (Kinect - HTC VIVE- Oculus and Oculus touch – Samsung gear – cardboard) , also developing Augmented reality Applications for IOS and Android. </li>
-			  <li class="timeline-text"> - develop multiplayer games using gamesparks </li>
-			  </ul>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Liverpool JM University</h4>
-
-			  <span>Master of Business Administration (MBA).</span>
-              <span>2024 — Till Now</span>
-			  
-			  <ul>
-				<li class="timeline-text"> - Leadership and Scholarly Business Practice </li>
-				<li class="timeline-text"> - Exploring Strategy for Organisations </li>
-				<li class="timeline-text"> - Operationalising the Strategy </li>
-				<li class="timeline-text"> - Transforming Organisations and Business Research </li>
-				<li class="timeline-text"> - Consultancy Business Project </li>
-			  </ul>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Information Technology Institute</h4>
-
-			  <span>Game Developing Diploma.</span>
-              <span>2011 — 2012</span>
-			  
-			  <ul>
-			  <li class="timeline-text"> - 9 Month Diploma, Information technology institute (ITI) – Game Developing Department. </li>
-			  <li class="timeline-text"> - Graduation Project: Android - Casual game (Fluffs) using Unity3D </li>
-			  </ul>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Ain Shams University</h4>
-			  <span>Bachelor of  Computer Science (BSC). </span>
-              <span>2006 — 2010</span>
-
-               <ul>
-			  <li class="timeline-text"> - Scientific computing department. </li>
-			  <li class="timeline-text"> - Graduation Project: (3D photo exploration (C#, python, and OpenGL)): using the point clouds generated by bundler to generate 3D models </li>
-			  </ul>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-         </article>
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="projects">
-
-        <header>
-          <h2 class="h2 article-title">Projects</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Unity</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Unreal</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Others</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Unity</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Unreal</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Others</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="proceduralterraingenerationtool" data-nav-link>
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/TerrainGenerationTool.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Procedural Terrain Generation Tool</h3>
-
-                <p class="project-category">Unity - Editor Tool</p>
-
-              </a>
-            </li>            
-			
-			<li class="project-item  active" data-filter-item data-category="unreal">
-              <a href="#" id="framework" data-nav-link>
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/framework.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">GAS based Framework</h3>
-
-                <p class="project-category">In Progress</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unreal">
-              <a href="#" id="unrealcustomeditortools" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/UnrealCustonEditorTool.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Unreal Custom Editor Tools</h3>
-
-                <p class="project-category">Unreal - Editor Tool</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="unreal">
-              <a href="#" id="outlinematerial" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/OutlineMaterial.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Outline Material</h3>
-
-                <p class="project-category">Unreal - VFX</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unreal">
-              <a href="#" id="scorpion" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/scorpion.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Scorpion Movement</h3>
-
-                <p class="project-category">Unreal - Animation</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unreal">
-              <a href="#" id="subsystem" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/sub-system.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">An online sub-system</h3>
-
-                <p class="project-category">Unreal - Network</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#"  id="minecraft" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/minecraft.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Minecraft</h3>
-
-                <p class="project-category">Unity - Simi-Game</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#"  id="jumpingjack" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/JumpingJack.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Jumping Jack</h3>
-
-                <p class="project-category">Unity - Simi-Game</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="naughtysouls" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/naughtsouls.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Naughty Souls</h3>
-
-                <p class="project-category">Unity - Game</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="dino" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/dino.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Dino - Match Making Game</h3>
-
-                <p class="project-category">Unity - Game/Editor Tool</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="van" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/CamperVan.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Camper Van</h3>
-
-                <p class="project-category">Unity - Game</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="playtime" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/PlayTime.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Play Time simi-projects</h3>
-
-                <p class="project-category">Unity - VFX</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="dexilantgame" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/dexilantgame.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Dexilant Game</h3>
-
-                <p class="project-category">Unity - Advertising Game</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="allegro" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Allegro.jpg" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Allegro</h3>
-
-                <p class="project-category">Unity - Game</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="naho" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/NAHO.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">NAHO</h3>
-
-                <p class="project-category">Unity - Game</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="homesweethome" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/HomeSweetHome.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Home Sweet Home</h3>
-
-                <p class="project-category">Unity - Game</p>
-
-              </a>
-            </li>
-			
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="breakit" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/breakit.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Break IT</h3>
-
-                <p class="project-category">Unity - Game</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="hadotobia" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/hadotobia.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Hadotobia</h3>
-
-                <p class="project-category">Unity - Kids Edu. App/Mini-Games</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="WaitressRunner" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/WaitressRunner.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Waitress Runner</h3>
-
-                <p class="project-category">Unity - Runner Game</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="preventdisaster" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/preventdisaster.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Prevent Disaster</h3>
-
-                <p class="project-category">Unity - Game</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="schoolprincipal" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/SchoolPrincipal.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">School Principal</h3>
-
-                <p class="project-category">Unity - Game</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="tieitwell" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Tie_it_well.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Tie It Well</h3>
-
-                <p class="project-category">Unity - Game</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="darkness" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/darkness.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">I don't like darkness</h3>
-
-                <p class="project-category">Unity - Game</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="vr" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/vr.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">VR Games</h3>
-
-                <p class="project-category">Unity - VR</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="pantspirate" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/PantsPirate.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Pants Pirate</h3>
-
-                <p class="project-category">Unity - Runner Game</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#" id="topdownshooter" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/topdownshooter.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Top-Down Shooter</h3>
-
-                <p class="project-category">Unity - Game Mechanics</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="others">
-              <a href="#"  id="opengl" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/opengl.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">OpenGL</h3>
-
-                <p class="project-category">Others</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="others">
-              <a href="#"  id="sfml" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/pong.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">SFML + C++</h3>
-
-                <p class="project-category">Others</p>
-
-              </a>
-            </li>
-			
-			<li class="project-item  active" data-filter-item data-category="unity">
-              <a href="#"  id="snake" data-nav-link>
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/snake.png" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fluffy Snake</h3>
-
-                <p class="project-category">Unity - Mechanics</p>
-
-              </a>
-            </li>
-			
-          </ul>
-
-        </section>
-
-      </article>
-
-
-	<!--
-		- Procedural Terrain Generation Tool
-	-->
-
-<article class="portfolio" data-page="proceduralterraingenerationtool">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Procedural Terrain Generation Tool <span class="h4 timeline-item-title"> Based On Udemy Course</span></h2>
-        </header>
-		
-		<section  class="projects">
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/UnityEditor.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		</section>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/TerrainGenerationTool" class="contact-link" target=”_blank”>https://github.com/leckchess/TerrainGenerationTool</a>
-            </div>
-          </li>
-		  
-		  <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-udemy"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Udemy Link</p>
-              <a href="https://www.udemy.com/course/procedural-terrain-generation-with-unity" class="contact-link" target=”_blank”>https://www.udemy.com/course/procedural-terrain-generation-with-unity</a>
-            </div>
-          </li>
-        </ul>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Terrain Generation in Unity Editor using</h4>
-				<ul>
-					<li>
-					<span>Random heights generation</span>
-					</li>
-					<li>
-					<span>Texture height generation</span>
-					</li>
-					<li>
-					<span>Single Perlin noise and multi Perlin noise (fractal Brownian motion)</span>
-					</li>
-					<li>
-					<span>Voronoi and midpoint displacement techniques</span>
-					</li>
-				</ul>
-				
-				<p class="timeline-text">Smoothing the terrain using simple blurring techniques</p>
-			</li>
-			
-			<li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Terrain Texturing Based on Slope and Height</h4>
-				<ul>
-					<li>
-					<span>Controlling texture offset, size, and blending to achieve the desired terrain appearance.</span>
-					</li>
-				</ul>
-			</li>
-			
-			<li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Procedural Texture Generation</h4>
-				<ul>
-					<li>
-					<span>Apply different textures based on the terrain heights.</span>
-					</li>
-				</ul>
-			</li>
-			
-			<li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Tree Placement</h4>
-				<ul>
-					<li>
-					<span>Adding trees to terrain based on the terrain heights.</span>
-					</li>
-				</ul>
-			</li>
-			
-			<li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Terrain Details</h4>
-				<ul>
-					<li>
-					<span>Enhancing terrain with detailed vegetation and ground features.</span>
-					</li>
-				</ul>
-			</li>
-			
-			<li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Water and Shoreline Exposure</h4>
-				<ul>
-					<li>
-					<span>Creating natural effects for shorelines, including rain, thermal, tidal, river, wind, and canyon erosion techniques for realistic environments.</span>
-					</li>
-				</ul>
-			</li>
-			
-			
-		
-		</ol>
-
-         
-            
-		
-</article>
-	
-	
-	<!--
-		- Unreal Editor Tool
-	-->
-
-<article class="portfolio" data-page="unrealcustomeditortools">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Unreal Custom Editor Tools <span class="h4 timeline-item-title"> Based On Udemy Course</span></h2>
-        </header>
-		
-		<section  class="projects">
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unreal/UnrealEditor.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		</section>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/ExtendEditor" class="contact-link" target=”_blank”>https://github.com/leckchess/ExtendEditor</a>
-            </div>
-          </li>
-		  
-		  <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-udemy"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Udemy Link</p>
-              <a href="https://www.udemy.com/course/unrealengine5-c-one-course-solution-for-extending-editor/" class="contact-link" target=”_blank”>https://www.udemy.com/course/unrealengine5-c-one-course-solution-for-extending-editor/</a>
-            </div>
-          </li>
-        </ul>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Custom Asset Actions</h4>
-				<ul>
-					<li>
-					<span>Duplicate Assets: Automatically duplicate selected assets in bulk.</span>
-					</li>
-					<li>
-					<span>Add Prefix to Assets: Add prefixes to asset names, either by class or one by one.</span>
-					</li>
-					<li>
-					<span>Remove Unused Assets: Automatically delete unused assets from the project and fix redirectors.</span>
-					</li>
-				</ul>
-			</li>
-			
-			<li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Custom Editor Tab for Asset Deletion</h4>
-				<ul>
-					<li>
-					<span>List asset names and types.</span>
-					</li>
-					<li>
-					<span>Select, deselect, and delete assets individually.</span>
-					</li>
-					<li>
-					<span>Options to select all, deselect all, and delete selected assets.</span>
-					</li>
-					<li>
-					<span>Filter assets within a folder by type (via a dropdown list).</span>
-					</li>
-					<li>
-					<span>List all, unused, and duplicated assets within a folder.</span>
-					</li>
-					
-					<p class="timeline-text">Helper Text & Folder Selection: Display helper text as a tutorial and show the current folder. Clicking an asset name finds it in the Content Browser.</p>
-
-				</ul>
-			</li>
-			
-			<li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Custom Icons and Material Creator</h4>
-				<ul>
-					<li>
-					<span>Custom Icons: Add custom icons for new content menu items (e.g., advanced deletion).</span>
-					</li>
-					<li>
-					<span>Create materials through code, assigning diffuse, metallic, roughness, normal, and ambient occlusion maps.</span>
-					</li>
-					<li>
-					<span>Support for masked textures for roughness, metallic, and ambient occlusion.</span>
-					</li>
-					<li>
-					<span>Create a material instance from any selected materials or new materials created.</span>
-					</li>
-				</ul>
-			</li>	
-		</ol>
-
-         
-            
-		
-</article>
-
-
-	<!--
-		- Minecraft
-	-->
-
-<article class="portfolio" data-page="minecraft">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">A Minecraft like environment build<span class="h4 timeline-item-title"> Based On Udemy Course</span></h2>
-        </header>
-		
-		<section  class="projects">
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Minecraft.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		</section>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/Minecraft" class="contact-link" target=”_blank”>https://github.com/leckchess/Minecraft</a>
-            </div>
-          </li>
-		  
-		  <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-udemy"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Udemy Link</p>
-              <a href="https://www.udemy.com/course/unityminecraft" class="contact-link" target=”_blank”>https://www.udemy.com/course/unityminecraft</a>
-            </div>
-          </li>
-        </ul>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">A Minecraft like environment build</h4>
-				<ul>
-					<li>
-					<span>Fast random build using Perlin noise and Fractal Brownian motion</span>
-					</li>
-					<li>
-					<span>Chunks generation and deletion around the player while he is moving</span>
-					</li>
-					<li>
-					<span>Data save and load for better performance</span>
-					</li>
-					<li>
-					<span>Add blocks or destroy blocks</span>
-					</li>
-					<li>
-					<span>Blocks auto heal after few seconds (if not destroyed)</span>
-					</li>
-					<li>
-					<span>Sand blocks fall using gravity</span>
-					</li>
-					<li>
-					<span>Water blocks spread</span>
-					</li>
-				</ul>
-			</li>
-		</ol>		
-</article>
-
-	<!--
-		- Unreal Scorpion Animation
-	-->
-
-<article class="portfolio" data-page="scorpion">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">A Scorpion Animation using Anim rig<span class="h4 timeline-item-title"> Based On Udemy Course</span></h2>
-        </header>
-		
-		<section  class="projects">
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unreal/scorpion.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		</section>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/Minecraft" class="contact-link" target=”_blank”>https://github.com/leckchess/AnimationUdemy</a>
-            </div>
-          </li>
-		  
-		  <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-udemy"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Udemy Link</p>
-              <a href="https://www.udemy.com/course/controlrig/?couponCode=KEEPLEARNING" class="contact-link" target=”_blank”>https://www.udemy.com/course/controlrig/?couponCode=KEEPLEARNING</a>
-            </div>
-          </li>
-        </ul>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Scorpion Animation</h4>
-				<ul>
-					<li>
-					<span>This project simulates the movement of a scorpion, focusing on adaptive locomotion across uneven terrain. The scorpion model will adjust the movement of its legs dynamically based on the ground's slope, using a control leg system. This system ensures stable and realistic movement by coordinating the legs in response to changing surface angles.</span>
-					</li>
-				</ul>
-			</li>
-		</ol>		
-</article>
-
-<!-- unreal network sub system -->
-
-<article class="portfolio" data-page="subsystem">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">An online sub-system<span class="h4 timeline-item-title"> Based On Udemy Course</span></h2>
-        </header>
-		
-		<section  class="projects">
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unreal/sub-system.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		</section>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/PuzzlePlatforms" class="contact-link" target=”_blank”>https://github.com/leckchess/PuzzlePlatforms</a>
-            </div>
-          </li>
-		  
-		  <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-udemy"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Udemy Link</p>
-              <a href="https://www.udemy.com/course/unrealmultiplayer/?couponCode=KEEPLEARNING" class="contact-link" target=”_blank”>https://www.udemy.com/course/unrealmultiplayer/?couponCode=KEEPLEARNING</a>
-            </div>
-          </li>
-        </ul>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">An online sub-system</h4>
-				<ul>
-					<li>
-					<span>Create/Join a server</span>
-					</li>
-					<li>
-					<span>A lobby where the player can meet until all the players join so the master can start the game</span>
-					</li>
-					<li>
-					<span>Handle master disconnection</span>
-					</li>
-					<li>
-					<span>Use the Steam API to play the game against real online players</span>
-					</li>
-				</ul>
-			</li>
-		</ol>		
-</article>
-
-	<!--
-		- PlayTime
-	-->
-
-<article class="portfolio" data-page="playtime">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Projects Made for fun purpose<span class="h4 timeline-item-title"> Based on online vidoes/articles</span></h2>
-        </header>
-		
-		<section  class="projects">
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Stencil Mask</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/StencilMask.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/StencilMask" class="contact-link" target=”_blank”>https://github.com/leckchess/StencilMask</a>
-            </div>
-          </li>
-        </ul>
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Animation Shader (Shader Graph)</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Rat.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/NAH-Gaming-Studio/AnimatedRat" class="contact-link" target=”_blank”>https://github.com/NAH-Gaming-Studio/AnimatedRat</a>
-            </div>
-          </li>
-        </ul>
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Portal</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Portal.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/Portal" class="contact-link" target=”_blank”>https://github.com/leckchess/Portal</a>
-            </div>
-          </li>
-        </ul>
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Egyptian Style Runner Game</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/EgyptianStyleRunnerGame.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">SkinMesh Particles (Dancing Particles)</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/DancingParticles.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/DancingParticles" class="contact-link" target=”_blank”>https://github.com/leckchess/DancingParticles</a>
-            </div>
-          </li>
-        </ul>
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Force Field (Shader Graph)</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/ForceField.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/NAHGamingStudio/Shaders" class="contact-link" target=”_blank”>https://github.com/NAHGamingStudio/Shaders</a>
-			  
-			  <p class="timeline-text">(Assets/Shaders/ForcedField) (Assets/Shaders/ShieldEffect)</p>
-            </div>
-          </li>
-        </ul>
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">UI Hologram (Shader Graph)</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Hologram.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/NAHGamingStudio/Shaders" class="contact-link" target=”_blank”>https://github.com/NAHGamingStudio/Shaders</a>
-			  
-			  <p class="timeline-text">(Assets/Shaders/Hologram)</p>
-            </div>
-          </li>
-        </ul>
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Jelly</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Jelly.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Particles System Monster</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/ParticlesSystem.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		</section>
-</article>
-
-
-<!--
-		- VR
-	-->
-
-<article class="portfolio" data-page="vr">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">VR Projects</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Environment Saviors (Firts place in hackthon 2015 over Egypt and Africa)</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/VR/Environment_Saviors.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>In this eco-friendly game, players work to save the environment by clearing pollution from the air.</span>
-					</li>
-					<li>
-					<span>Solve puzzles and complete challenges to clean the skies and make the world a healthier place.</span>
-					</li>
-				</ul>
-			</li>
-		</ol>	
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">EngineerQuest VR</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/VR/VR_Hackathon.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>A VR game designed to help engineers across various industries, such as oil, chemical, and carpentry, learn how to safely fix and maintain equipment. Players can practice real-world tasks, like safely repairing windmills in the oil industry, while following proper safety protocols. The game provides immersive training experiences in different fields, offering hands-on learning without real-world risks.</span>
-					</li>
-				</ul>
-			</li>
-		</ol>	
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Crane (5d-VR)</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/VR/Crane.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>A VR puzzle game where the player uses a controller to move a crane, collect puzzle pieces, and place them in the correct spots within a set time limit.</span>
-					</li>
-				</ul>
-			</li>
-		</ol>		
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Cricket (5d-VR)</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/VR/Cricket.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>A VR cricket game where the player aims to hit target shots within a specific time limit.</span>
-					</li>
-				</ul>
-			</li>
-		</ol>	
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Glider (5d-VR)</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/VR/Glider.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>A VR roller coaster-style game where players choose between two modes: free flying and fixed path.</span>
-					</li>
-					<li>
-					<span>In free-flying mode, players soar around the world, collecting points and viewing major monuments.</span>
-					</li>
-					<li>
-					<span>Players can pick up a speed power-up to fly faster.</span>
-					</li>
-					<li>
-					<span>They must collect a target number of points within a specific time.</span>
-					</li>
-					<li>
-					<span>Checkpoints are available to help players continue if they lose.</span>
-					</li>
-				</ul>
-			</li>
-		</ol>	
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">SpaceGameplay (5d-VR)</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/VR/SpaceGameplay.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>A VR space game where the player flies through space, collecting stars and avoiding obstacles.</span>
-					</li>
-					<li>
-					<span>The player can pick up a speed power-up to fly faster.</span>
-					</li>
-					<li>
-					<span>The goal is to collect a target number of points within a specific time.</span>
-					</li>
-				</ul>
-			</li>
-		</ol>
-		
-		</section>
-</article>
-
-
-<!--
-		- opengl
-	-->
-
-<article class="portfolio" data-page="opengl">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">OpenGL</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Lorenz Attractor</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Others/OpenGL/LorenzAttractor.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/LorenzAttractor-Opengl" class="contact-link" target=”_blank”>https://github.com/leckchess/LorenzAttractor-Opengl</a>
-            </div>
-          </li>
-        </ul>
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Simple terrain using Perlin Noise</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Others/OpenGL/PerlinNoise.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/Terrain-OpenGL" class="contact-link" target=”_blank”>https://github.com/leckchess/Terrain-OpenGL</a>
-            </div>
-          </li>
-        </ul>
-		
-		</section>
-</article>
-
-<!--
-		- framework
-	-->
-
-<article class="portfolio" data-page="framework">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">GAS Based Framework - In Progress</h2>
-        </header>
-		
-		<section  class="projects">
-				<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unreal/framework.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-				<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Current Features</h4>
-				<ul>
-					<li>
-					<span>3rd Person C++ Class Integration – Established a solid foundation for the project.</span>
-					</li>
-					<li>
-					<span>GAS Integration – Fully set up the Ability System Component, supporting scalable gameplay mechanics.</span>
-					</li>
-					<li>
-					<span>Inherited Base Ability – Linked with the Enhanced Input System for flexible and reusable abilities.</span>
-					</li>
-					<li>
-					<span>Basic Interaction System – Modular and ready for various interactions, from item collection to door mechanics.</span>
-					</li>
-					<li>
-					<span>Interaction Ability – Initial testing with item pickups to ensure smooth functionality.</span>
-					</li>
-					<li>
-					<span>Simple Interaction UI – Clear prompts like "Press E to interact" for intuitive gameplay.</span>
-					</li>
-					<li>
-					<span>Basic NPC System – Added an NPC with simple dialogue interactions.</span>
-					</li>
-					<li>
-					<span>Jetpack Ability – Smooth activation/deactivation mechanics powered by GAS.</span>
-					</li>
-					<li>
-					<span>Environment Integration – Imported and optimized a low-poly environment for performance.</span>
-					</li>
-					<li>
-					<span>Item Interactivity – Integrated the interaction system with environment objects for added depth.</span>
-					</li>
-				</ul>
-				
-				<h4 class="h4 timeline-item-title">Gameplay Features</h4>
-				<ul>
-					<li>
-					<span>Make a Fire Base Interactive – Start/stop mechanics for added immersion.</span>
-					</li>
-					<li>
-					<span>Create Interactable Doors – Universal integration for all doors.</span>
-					</li>
-					<li>
-					<span>Destructive Meshes – Fully destructible objects integrated with abilities.</span>
-					</li>
-					<li>
-					<span>Kick Ability – Custom animation linked to destruction mechanics.</span>
-					</li>
-					<li>
-					<span>Harvestable Plants – Collectibles scattered across the map.</span>
-					</li>
-				</ul>
-				
-				<h4 class="h4 timeline-item-title">Next Steps</h4>
-				<ul>
-					<li>
-					<span>Expanded Locomotion System – Adding new states like dodge, climb, and dash for richer player movement.</span>
-					</li>
-					<li>
-					<span>Enhanced Interaction System – Taking inspiration from Zelda with visual feedback and intuitive prompts to make interactions more engaging.</span>
-					</li>
-					<li>
-					<span>Inventory System – Implementing a system to manage item pickups and player resources.</span>
-					</li>
-				</ul>
-				
-				<h4 class="h4 timeline-item-title">Additional Features for Depth</h4>
-				<ul>
-					<li>
-					<span>Health/Stamina Systems – Managed using GAS attributes for streamlined player stats.</span>
-					</li>
-					<li>
-					<span>Death Ability – Fully functional player respawn or game-over system.</span>
-					</li>
-					<li>
-					<span>Multiplayer Support – All interactions and abilities are replicated for smooth online gameplay.</span>
-					</li>
-				</ul>
-			</li>
-			
-			<li class="timeline-item">
-				<h4 class="h4 timeline-item-title">
-				This framework is shaping up to be a modular, scalable solution for Unreal Engine developers, enabling seamless creation of dynamic and engaging games. Excited to continue refining and expanding these features!</h4>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-<!--
-		- sfml
-	-->
-
-<article class="portfolio" data-page="sfml">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">SFML + C++</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<h4 class="h4 service-item-title" style="margin-top:40px;">Pong</h4>
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Others/SFML/pong.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/Pong" class="contact-link" target=”_blank”>https://github.com/leckchess/Pong</a>
-            </div>
-          </li>
-        </ul>
-		
-		
-		
-		</section>
-</article>
-
-<!--
-		- dino
-	-->
-<article class="portfolio" data-page="dino">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Dino - Match Making Game</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Dino.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/Dinoo" class="contact-link" target=”_blank”>https://github.com/leckchess/Dinoo</a>
-            </div>
-          </li>
-        </ul>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Game Mechanics</h4>
-				<ul>
-					<li>
-					<span>The board features at least 5 different colored tiles and can vary in size (e.g., 5x5, 7x7, 6x9).</span>
-					</li>
-					<li>
-					<span>Adjacent tiles of the same color can be linked.</span>
-					</li>
-					<li>
-					<span>Links can be made horizontally, vertically, or diagonally.</span>
-					</li>
-					<li>
-					<span>A minimum of 3 tiles is required to make a match.</span>
-					</li>
-					<li>
-					<span>Matched tiles are removed from the board.</span>
-					</li>
-					<li>
-					<span>The board collapses downward to fill empty slots, and new tiles fall from the top.</span>
-					</li>
-					<li>
-					<span>If no valid links are available, the board reshuffles.</span>
-					</li>
-					<li>
-					<span>Links in progress can be undone by swiping back to the previous tile.</span>
-					</li>
-				</ul>
-			</li>
-			
-			<li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Unity Editor Level Creator</h4>
-				<ul>
-					<li>
-					<span>Provide a level creator tool in Unity Editor for making updates without code changes.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-<!--
-		- Hadotobia
-	-->
-<article class="portfolio" data-page="hadotobia">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Hadotobia - Creative Educational Platform <span class="h4 timeline-item-title"> Freelancing Project</span></h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Hadotopia.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>An educational platform that combines fun mini-games with different skills and subjects. Players can log in to access a variety of creative games that teach topics like animals, manners, and more. The game uses engaging narration and fun stories to make learning enjoyable, helping players develop important skills through interactive gameplay.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-<!--
-		- Camper Van
-	-->
-<article class="portfolio" data-page="van">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Camper Van <span class="h4 timeline-item-title"> Freelancing Project</span></h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Mini-Games/CamperVan.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>A light and colorful game where players can customize a van with fun paintings and stickers. Unleash your creativity by designing and styling the van to make it your own unique creation.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-<!--
-		- Dexilant Game
-	-->
-<article class="portfolio" data-page="dexilantgame">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Dexilant Game (Advertising Game) <span class="h4 timeline-item-title">5d-VR</span></h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Mini-Games/Dexilantgame.m4v" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>A fun and interactive advertising game developed by 5D-VR company for the medicine Dexilant. The game creatively promotes the benefits of the medication through engaging gameplay, offering an enjoyable experience while raising awareness about its use.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-<!--
-		- School Principal
-	-->
-<article class="portfolio" data-page="schoolprincipal">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">School Principal <span class="h4 timeline-item-title">Freelancing Game</span></h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Mini-Games/SchoolPrincipal.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>In this educational game, you play as the principal of a school, where your role is to answer questions from students and teachers about what is right or wrong. Make the right decisions to improve the school's rating and create a positive learning environment.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-
-<!--
-		- NAHO
-	-->
-<article class="portfolio" data-page="naho">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">NAHO</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Mini-Games/NAHO.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>A creative and funny game designed to teach kids counting and basic math operations like addition in an entertaining way. Through engaging gameplay and humorous challenges, children learn math skills while having fun.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-<!--
-		- Waitress Runner
-	-->
-<article class="portfolio" data-page="waitressrunner">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Waitress Runner </h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Waitressrunner.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>In this exciting runner game, you control a waitress who must collect and balance dishes while running. Keep her hands steady to avoid falling, and the more dishes you carry, the more tables you can serve and earn money. Aim for high scores by managing your balance and serving efficiency!</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-<!--
-		- Tie It Well
-	-->
-<article class="portfolio" data-page="tieitwell">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Tie It Well</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Mini-Games/Tie_it_well.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>In this runner game, you help a delivery man secure the belts on his backpack to prevent losing items during his journey. Ensure the belts are fastened tightly while navigating through obstacles, so he can deliver all the items safely and efficiently.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-<!--
-		- Pants Pirate
-	-->
-<article class="portfolio" data-page="pantspirate">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Pants Pirate</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Mini-Games/PantsPirate.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>A unique runner game where players can steal clothes from NPCs as they dash through levels. The more clothes you steal, the higher your business level rises, unlocking new upgrades and challenges. Race to become the ultimate clothing mogul by outsmarting NPCs and expanding your empire.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-<!--
-		- Prevent Disaster
-	-->
-<article class="portfolio" data-page="preventdisaster">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Prevent Disaster</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Mini-Games/preventdisaster.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Description</h4>
-				<ul>
-					<li>
-					<span>A mini-game where players must make the right choices to prevent a disaster planned by a villain.</span>
-					</li>
-					<li>
-					<span>Each decision impacts the outcome, requiring quick thinking and strategic choices to thwart the bad guy’s schemes and save the day.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-
-<!--
-		- snake
-	-->
-<article class="portfolio" data-page="snake">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Fluffy Snake</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Snake.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/FluffySnake" class="contact-link" target=”_blank”>https://github.com/leckchess/FluffySnake</a>
-            </div>
-          </li>
-        </ul>
-		
-		</section>
-</article>
-
-<!--
-		- Allegro
-	-->
-
-<article class="portfolio" data-page="allegro">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Allegro</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/Allegro.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/Allegro" class="contact-link" target=”_blank”>https://github.com/leckchess/Allegro</a>
-			  
-			  <p class="timeline-text">Developed under P1Games with other team members</p>
-            </div>
-          </li>
-		  
-		  <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-itch"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Itch.io page</p>
-              <a href="https://nerminsh.itch.io/allegro" class="contact-link" target=”_blank”>https://nerminsh.itch.io/allegro</a>
-			  
-            </div>
-			
-          </li>
-        </ul>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Game Description</h4>
-				<ul>
-					<li>
-					<span>In this emotional adventure game, the player confronts their own depression, which has transformed into a fearsome antagonist. The journey involves facing these negative emotions and learning to love oneself.</span>
-					</li>
-					<li>
-					<span>Positive feelings are symbolized by fragments of a music sequence scattered throughout the game world.</span>
-					</li>
-					<li>
-					<span>The world is tainted in gray by the protagonist's negative emotions, and clues are essential for finding and interacting with objects.</span>
-					</li>
-					<li>
-					<span> The objective is to explore, gather all the music pieces, and piece together a soothing song to heal the protagonist’s heart.</span>
-					</li>
-					<li>
-					<span>The gameplay involves detective-style exploration and puzzle-solving. Once all music pieces are collected, they must be assembled into a jigsaw-style puzzle to complete the level.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-
-<!--
-		- outline material
-	-->
-
-<article class="portfolio" data-page="outlinematerial">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Unreal Outline Material  <span class="h4 timeline-item-title"> Based On Youtube Tutorial</span></h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unreal/OutlineMaterial.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		  <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Youttube Tutorial</p>
-              <a href="https://www.youtube.com/watch?v=umzLSts3sto" class="contact-link" target=”_blank”>https://www.youtube.com/watch?v=umzLSts3sto</a>
-			  
-            </div>
-          </li>
-        </ul>
-		
-		</section>
-</article>
-
-
-<!--
-		- Naughty Souls
-	-->
-
-<article class="portfolio" data-page="naughtysouls">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Naughty Souls</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/NaughtSouls.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/NAHGamingStudio/GGJ_21" class="contact-link" target=”_blank”>https://github.com/NAHGamingStudio/GGJ_21</a>
-			  
-			  <p class="timeline-text">Gamejam project</p>
-            </div>
-          </li>
-		  
-		  <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-itch"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Itch.io page</p>
-              <a href="https://leckchess.itch.io/naughty-soul" class="contact-link" target=”_blank”>https://leckchess.itch.io/naughty-soul</a>
-			  
-            </div>
-          </li>
-        </ul>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Game Description</h4>
-				<ul>
-					<li>
-					<span>Game Jam 2021.</span>
-					</li>
-					<li>
-					<span>A platformer game where the player navigates through various levels, collecting lost souls.</span>
-					</li>
-					<li>
-					<span>The player must avoid grim reapers who will take their own soul if encountered.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-<!--
-		- Jumping Jack
-	-->
-
-
-<article class="portfolio" data-page="jumpingjack">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Jumping Jack</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/JumpingJack.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/JumpingJack" class="contact-link" target=”_blank”>https://github.com/leckchess/JumpingJack</a>
-			</div>
-          </li>
-        </ul>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Game Description</h4>
-				<ul>
-					<li>
-					<span>Jumping Jack is a fun platformer game where you control Jack, who loves to jump. Your goal is to navigate through various levels by jumping between platforms, avoiding obstacles, and collecting items.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-<!--
-		- Home Sweet Home
-	-->
-
-
-<article class="portfolio" data-page="homesweethome">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Home Sweet Home</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/HomeSweetHome.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/NAHGamingStudio/GGJ2019" class="contact-link" target=”_blank”>https://github.com/NAHGamingStudio/GGJ2019</a>
-			</div>
-          </li>
-        </ul>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Game Description</h4>
-				<ul>
-					<li>
-					<span>In this cozy puzzle game, the player searches for items and solves mini-puzzles to bring back the comforting feeling of their old home. Through exploration and puzzle-solving, the player restores the warmth of their lost home.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-
-<!--
-		- Break IT
-	-->
-
-
-<article class="portfolio" data-page="breakit">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Break IT</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/BreakIT.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/gitNermin/GGJ2020" class="contact-link" target=”_blank”>https://github.com/gitNermin/GGJ2020</a>
-			</div>
-          </li>
-        </ul>
-		
-		</section>
-</article>
-
-<!--
-		- I don't like darkness
-	-->
-
-
-<article class="portfolio" data-page="darkness">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">I don't like darkness</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/darkness.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/gitNermin/GGJ22" class="contact-link" target=”_blank”>https://github.com/gitNermin/GGJ22</a>
-			</div>
-          </li>
-        </ul>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Game Description</h4>
-				<ul>
-					<li>
-					<span>A cooperative escape room game where you and your partner must work together to solve puzzles and save each other from the dark side. Use teamwork, strategy, and quick thinking to escape before time runs out.</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-<!--
-		- Top-Down Shooter
-	-->
-
-
-<article class="portfolio" data-page="topdownshooter">
-	  
-        <header>
-		  <h2 class="h2 article-title" style="margin-top:40px;">Top-Down Shooter</h2>
-        </header>
-		
-		<section  class="projects">
-		
-		<video width="640" height="360" controls>
-		  <source src="./assets/Videos/Unity/TopDownShooter.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		
-		<ul  class="contacts-list" style="margin-top:30px">
-		   <li class="social-item">
-		   <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-			  <p class="contact-title">Github Project</p>
-              <a href="https://github.com/leckchess/SimpleShooter" class="contact-link" target=”_blank”>https://github.com/leckchess/SimpleShooter</a>
-			</div>
-          </li>
-        </ul>
-		
-		<ol class="timeline-list" style="margin-top:40px;">
-
-            <li class="timeline-item">
-				<h4 class="h4 timeline-item-title">Game Description</h4>
-				<ul>
-					<li>
-					<span>Top-Down view shooter game.</span>
-					</li>
-					<li>
-					<span>Player moves using navigation wheel.</span>
-					</li>
-					<li>
-					<span>Two types of enemy (aggresive / friendly).</span>
-					</li>
-					<li>
-					<span>Two types of weapons (automatic / pistol).</span>
-					</li>
-				</ul>
-			</li>
-			
-		</ol>
-		
-		</section>
-</article>
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.37451031098!2d31.258464350000004!3d30.059488450000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1723499723516!5m2!1sen!2seg"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact</h3>
-
-          <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:huda.rasmey.sc@gmail.com" class="contact-link">huda.rasmey.sc@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+201009394396" class="contact-link">+2 (0100) 9394-396</a>
-            </div>
-
-          </li>
-		  
-		   <li class="social-item">
-		   
-		   <div class="icon-box">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <a href="https://www.linkedin.com/in/huda-rasmey-6639a120" class="contact-link" target=”_blank”>https://www.linkedin.com/in/huda-rasmey-6639a120</a>
-            </div>
-			
-          </li>
-		  
-		   <li class="contact-item">
-
-            <div class="contact-info">
-              <p class="contact-title">Full CV</p>
-
-              <a href="./assets/HudaRasmey_CV.pdf" class="contact-link"  target=”_blank”>Download CV</a>
-            </div>
-
-          </li>
-
-        </ul>
-
-        </section>
-
-      </article>
-
+<div class="app">
+
+  <!-- ============ SIDEBAR / CHARACTER CARD ============ -->
+  <aside class="sidebar">
+    <div class="mobile-topbar">
+      <a href="mailto:huda.rasmey.sc@gmail.com">Email</a>
+      <a href="./assets/HudaRasmey_CV.pdf" target="_blank">CV</a>
     </div>
 
+    <div class="portrait framed">
+      <span class="rv2"></span><span class="rv3"></span>
+      <img src="./assets/images/my-avatar.png" alt="Huda Rasmey"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+      <div class="ph" style="display:none">HR</div>
+      <span class="level-badge">LVL 14</span>
+    </div>
+
+    <div class="id-block">
+      <h1 class="name">Huda Rasmey</h1>
+      <p class="class"><span>Class —</span> Unity &amp; Unreal Game Programmer</p>
+    </div>
+
+    <div class="side-skills">
+      <p class="side-skills-label">Skills</p>
+      <div class="skill-chips">
+        <span class="chip top">Unity</span>
+        <span class="chip top">C#</span>
+        <span class="chip top">Unreal Engine</span>
+        <span class="chip top">C++</span>
+        <span class="chip top">GAS</span>
+        <span class="chip">Multiplayer</span>
+        <span class="chip">Python</span>
+        <span class="chip">AI Systems</span>
+        <span class="chip">Game Design</span>
+        <span class="chip">Blueprints</span>
+        <span class="chip">Team Leadership</span>
+        <span class="chip top">Project Mgmt</span>
+      </div>
+      <button type="button" class="side-skills-more" data-tab-jump="skills">Full breakdown →</button>
+    </div>
+
+    <div class="contact-reveal" id="contactReveal">
+      <a href="mailto:huda.rasmey.sc@gmail.com">huda.rasmey.sc@gmail.com</a>
+      <a href="tel:+971503950918">+971 50-395-0918</a>
+      <span>Abu Dhabi, UAE</span>
+    </div>
+
+    <div class="sidebar-links">
+      <button type="button" id="contactToggleBtn">Contact Info <span>▾</span></button>
+      <a href="https://www.linkedin.com/in/huda-rasmey-6639a120" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+      <a href="./assets/HudaRasmey_CV.pdf" target="_blank" class="primary">Download CV <span>↓</span></a>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN / TABS ============ -->
+  <main class="main">
+
+    <nav class="tabbar" id="tabbar">
+      <button class="tab-btn active" data-tab="overview"><span class="glyph">◆</span>Overview</button>
+      <button class="tab-btn" data-tab="experience"><span class="glyph">◆</span>Experience</button>
+      <button class="tab-btn" data-tab="skills"><span class="glyph">◆</span>Skills</button>
+      <button class="tab-btn" data-tab="projects"><span class="glyph">◆</span>Projects</button>
+      <button class="tab-btn" data-tab="contact"><span class="glyph">◆</span>Contact</button>
+    </nav>
+
+    <!-- ---------- OVERVIEW ---------- -->
+    <section class="tab-panel active" id="tab-overview">
+      <span class="eyebrow">Character Overview</span>
+      <h2 class="panel-title">About</h2>
+
+      <div class="about-text">
+        <p>
+          I'm a game programmer with 14 years across Unity and Unreal, currently building
+          multiplayer character systems in production at MyWhoosh. My focus is gameplay code —
+          abilities, netcode, and editor tooling — with a specialization in the Gameplay Ability
+          System. I care about clean, maintainable systems as much as the feature working on day
+          one, and I've led and onboarded engineers on past teams.
+        </p>
+      </div>
+
+      <div class="abilities">
+        <div class="ability-card">
+          <div class="ability-icon"><img src="./assets/images/GameMechanicsIcon.png" alt=""></div>
+          <div>
+            <h4>Design &amp; Build Game Features</h4>
+            <p>Designing and implementing core gameplay features that define the player experience.</p>
+          </div>
+        </div>
+        <div class="ability-card">
+          <div class="ability-icon"><img src="./assets/images/PerformanceIcon.png" alt=""></div>
+          <div>
+            <h4>Optimize Performance</h4>
+            <p>Keeping games running smoothly across target platforms — code, load times, memory.</p>
+          </div>
+        </div>
+        <div class="ability-card">
+          <div class="ability-icon"><img src="./assets/images/CommunicationIcon.png" alt=""></div>
+          <div>
+            <h4>Cross-Functional Collaboration</h4>
+            <p>Working closely with design, art, and audio to integrate assets and polish the experience.</p>
+          </div>
+        </div>
+        <div class="ability-card">
+          <div class="ability-icon"><img src="./assets/images/TestingIcon.png" alt=""></div>
+          <div>
+            <h4>Test &amp; Debug</h4>
+            <p>Regular testing of gameplay features to catch and fix issues before they ship.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="guild-strip">
+        <p class="guild-label">Studios &amp; companies I've worked with</p>
+        <div class="guild-row">
+          <a href="https://mywhoosh.com/" target="_blank" rel="noopener"><img src="./assets/images/Mywhoosh.png" alt="Mywhoosh"></a>
+          <a href="https://ironbellystudios.com/" target="_blank" rel="noopener"><img src="./assets/images/IronBelly.png" alt="IronBelly Studios"></a>
+          <a href="https://www.instinctgames.com/" target="_blank" rel="noopener"><img src="./assets/images/InstinctGames.png" alt="Instinct Games"></a>
+          <a href="https://iti.gov.eg/home" target="_blank" rel="noopener"><img src="./assets/images/iti.png" alt="ITI"></a>
+          <a href="https://funrock.com/" target="_blank" rel="noopener"><img src="./assets/images/FunRock.png" alt="FunRock"></a>
+          <a href="https://www.toptal.com/" target="_blank" rel="noopener"><img src="./assets/images/toptal-logo.png" alt="Toptal"></a>
+          <a href="https://www.linkedin.com/company/p1-games" target="_blank" rel="noopener"><img src="./assets/images/p1games.png" alt="P1 Games"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- EXPERIENCE ---------- -->
+    <section class="tab-panel" id="tab-experience">
+      <span class="eyebrow">Quest Log</span>
+      <h2 class="panel-title">Experience</h2>
+
+      <div class="quest-log">
+        <div class="quest">
+          <span class="quest-status">Active</span>
+          <div>
+            <h3 class="quest-role">Unreal Game Programmer</h3>
+            <p class="quest-meta"><span class="org">Avroic Technologies (MyWhoosh)</span> · 06/2025 — present</p>
+            <ul class="quest-list">
+              <li>Refactored the player customization and animation systems to be extendable, reducing effort required to add new features.</li>
+              <li>Migrated Blueprint gameplay logic to C++, producing cleaner, more maintainable code and faster feature turnaround.</li>
+              <li>Built custom Unreal Editor tools to streamline team workflows and speed up iteration.</li>
+              <li>Developed Python-based automation systems to support internal pipelines and reduce manual overhead.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="quest">
+          <span class="quest-status done">Cleared</span>
+          <div>
+            <h3 class="quest-role">Volunteer Game Developer &amp; Tech Lead</h3>
+            <p class="quest-meta"><span class="org">P1Games</span> · 05/2024 — 2025</p>
+            <ul class="quest-list">
+              <li>Led a technical team, organizing sprints and task ownership to hit delivery milestones.</li>
+              <li>Developed features across Unreal and Unity engines, maintaining quality and deadline commitments.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="quest">
+          <span class="quest-status done">Cleared</span>
+          <div>
+            <h3 class="quest-role">Unreal Game Programmer</h3>
+            <p class="quest-meta"><span class="org">IronBelly Studios</span> · 01/2023 — 08/2024</p>
+            <ul class="quest-list">
+              <li>Developed PC games using Unreal Engine and C++.</li>
+              <li>Built and shipped a GAS-based ability/input queue system handling complex, time-sensitive input conditions.</li>
+              <li>Developed AI plugins and a throwable-object system in C++.</li>
+              <li>Mentored junior developers through onboarding, accelerating ramp-up time on the codebase.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="quest">
+          <span class="quest-status done">Cleared</span>
+          <div>
+            <h3 class="quest-role">Senior Game Developer <span style="color:var(--text-faint)">(Freelance)</span></h3>
+            <p class="quest-meta"><span class="org">Toptal</span> · 10/2022 — 2023</p>
+            <ul class="quest-list">
+              <li>Delivered a client Unreal Engine (C++) project as an independent freelancer, managing the technical roadmap directly with the client.</li>
+              <li>Single engagement, sourced through Toptal's freelance network.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="quest">
+          <span class="quest-status done">Cleared</span>
+          <div>
+            <h3 class="quest-role">Senior Unreal Game Programmer</h3>
+            <p class="quest-meta"><span class="org">Instinct Games</span> · 04/2021 — 01/2023</p>
+            <ul class="quest-list">
+              <li>Engineered PC gameplay features in Unreal Engine and integrated VFX assets.</li>
+              <li>Partnered with QA to identify and resolve gameplay bugs pre-release, improving build stability.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="quest">
+          <span class="quest-status done">Cleared</span>
+          <div>
+            <h3 class="quest-role">Lead Unity Game Developer</h3>
+            <p class="quest-meta"><span class="org">Besteam</span> · 06/2020 — 02/2021</p>
+            <ul class="quest-list">
+              <li>Built robotics-competition levels for kids to compete from home, using Unity3D and WebGL.</li>
+              <li>Managed the team to deliver tasks on schedule.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="quest">
+          <span class="quest-status done">Cleared</span>
+          <div>
+            <h3 class="quest-role">Senior Unity Game Developer</h3>
+            <p class="quest-meta"><span class="org">FunRock</span> · 07/2018 — 03/2019</p>
+            <ul class="quest-list">
+              <li>Owned frontend/UI development for Android and iOS titles.</li>
+              <li>Built a reinforcement system and an Events &amp; Quests system, contributing to player retention.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="quest">
+          <span class="quest-status done">Cleared</span>
+          <div>
+            <h3 class="quest-role">Senior Unity Game Developer</h3>
+            <p class="quest-meta"><span class="org">Cryptyd Game Studio</span> · 03/2018 — 07/2018</p>
+            <ul class="quest-list">
+              <li>Built backend and networking (Kii, PlayFab) for Android and iOS titles.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="quest">
+          <span class="quest-status done">Cleared</span>
+          <div>
+            <h3 class="quest-role">Lead Unity Game Developer</h3>
+            <p class="quest-meta"><span class="org">5D-VR</span> · 03/2015 — 02/2018</p>
+            <ul class="quest-list">
+              <li>Managed and developed VR games across Kinect, HTC Vive, Oculus + Oculus Touch, Samsung Gear, and cardboard — plus AR apps for iOS and Android.</li>
+              <li>Developed multiplayer games using GameSparks.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <p class="subsection-label">Education</p>
+      <div class="quest-log">
+        <div class="quest">
+          <span class="quest-status done">Cleared</span>
+          <div>
+            <h3 class="quest-role">Master of Business Administration (MBA)</h3>
+            <p class="quest-meta"><span class="org">Liverpool John Moores University</span> · 2024 — Feb 2026</p>
+            <ul class="quest-list">
+              <li>Leadership and Scholarly Business Practice</li>
+              <li>Exploring Strategy for Organisations</li>
+              <li>Operationalising the Strategy</li>
+              <li>Transforming Organisations and Business Research</li>
+            </ul>
+          </div>
+        </div>
+        <div class="quest">
+          <span class="quest-status done">Cleared</span>
+          <div>
+            <h3 class="quest-role">Game Developing Diploma</h3>
+            <p class="quest-meta"><span class="org">Information Technology Institute (ITI)</span> · 2011 — 2012</p>
+            <ul class="quest-list">
+              <li>9-month diploma, Game Developing department.</li>
+              <li>Graduation project: Fluffs — a casual Android game built in Unity3D.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="quest">
+          <span class="quest-status done">Cleared</span>
+          <div>
+            <h3 class="quest-role">Bachelor of Computer Science</h3>
+            <p class="quest-meta"><span class="org">Ain Shams University</span> · 2006 — 2010</p>
+            <ul class="quest-list">
+              <li>Scientific Computing department.</li>
+              <li>Graduation project: 3D photo exploration (C#, Python, OpenGL) — reconstructing 3D models from Bundler point clouds.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- SKILLS ---------- -->
+    <section class="tab-panel" id="tab-skills">
+      <span class="eyebrow">Character Stats</span>
+      <h2 class="panel-title">Skills</h2>
+
+      <div class="stat-groups">
+        <div class="stat-group">
+          <h4>Engines &amp; Languages</h4>
+          <div class="stat-line"><span class="stat-name">Unity</span><div class="bar-track" data-level="5"></div><span class="stat-value">5/5</span></div>
+          <div class="stat-line"><span class="stat-name">C#</span><div class="bar-track" data-level="5"></div><span class="stat-value">5/5</span></div>
+          <div class="stat-line"><span class="stat-name">Unreal Engine</span><div class="bar-track" data-level="4"></div><span class="stat-value">4/5</span></div>
+          <div class="stat-line"><span class="stat-name">C++</span><div class="bar-track" data-level="4"></div><span class="stat-value">4/5</span></div>
+          <div class="stat-line"><span class="stat-name">Blueprints</span><div class="bar-track" data-level="4"></div><span class="stat-value">4/5</span></div>
+          <div class="stat-line"><span class="stat-name">Python</span><div class="bar-track" data-level="3"></div><span class="stat-value">3/5</span></div>
+        </div>
+        <div class="stat-group">
+          <h4>Gameplay Systems</h4>
+          <div class="stat-line"><span class="stat-name">Gameplay Ability System</span><div class="bar-track teal" data-level="4"></div><span class="stat-value">4/5</span></div>
+          <div class="stat-line"><span class="stat-name">AI — Pathfinding &amp; Behavior Trees</span><div class="bar-track teal" data-level="3"></div><span class="stat-value">3/5</span></div>
+          <div class="stat-line"><span class="stat-name">Animation Blending &amp; IK</span><div class="bar-track teal" data-level="3"></div><span class="stat-value">3/5</span></div>
+          <div class="stat-line"><span class="stat-name">Game Design</span><div class="bar-track teal" data-level="4"></div><span class="stat-value">4/5</span></div>
+          <div class="stat-line"><span class="stat-name">Multiplayer — Photon, Unreal Replication</span><div class="bar-track teal" data-level="4"></div><span class="stat-value">4/5</span></div>
+        </div>
+        <div class="stat-group">
+          <h4>Tools &amp; Workflow</h4>
+          <div class="stat-line"><span class="stat-name">Git / Perforce</span><div class="bar-track" data-level="4"></div><span class="stat-value">4/5</span></div>
+          <div class="stat-line"><span class="stat-name">Unreal Insights / Unity Profiler</span><div class="bar-track" data-level="3"></div><span class="stat-value">3/5</span></div>
+          <div class="stat-line"><span class="stat-name">Agile — Scrum, Kanban, Jira</span><div class="bar-track" data-level="4"></div><span class="stat-value">4/5</span></div>
+        </div>
+        <div class="stat-group">
+          <h4>Leadership</h4>
+          <div class="stat-line"><span class="stat-name">Team Leadership</span><div class="bar-track" data-level="4"></div><span class="stat-value">4/5</span></div>
+          <div class="stat-line"><span class="stat-name">Project Management</span><div class="bar-track" data-level="5"></div><span class="stat-value">5/5</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- PROJECTS ---------- -->
+    <section class="tab-panel" id="tab-projects">
+      <span class="eyebrow">Inventory — 32 items</span>
+      <h2 class="panel-title">Projects</h2>
+
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="unreal">Unreal</button>
+        <button class="filter-btn" data-filter="unity">Unity</button>
+        <button class="filter-btn" data-filter="others">Other</button>
+      </div>
+
+      <div class="inv-grid" id="projectGrid"></div>
+    </section>
+
+    <!-- ---------- CONTACT ---------- -->
+    <section class="tab-panel" id="tab-contact">
+      <span class="eyebrow">Send a Message</span>
+      <h2 class="panel-title">Contact</h2>
+      <p style="color:var(--text-dim); max-width:56ch; margin-bottom:32px;">
+        Open to Unreal Engine roles, gameplay-systems work, and interesting multiplayer problems.
+      </p>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:huda.rasmey.sc@gmail.com">
+          <p class="k">Email</p>
+          <p class="v">huda.rasmey.sc@gmail.com</p>
+        </a>
+        <a class="contact-card" href="tel:+971503950918">
+          <p class="k">Phone</p>
+          <p class="v">+971 50-395-0918</p>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/huda-rasmey-6639a120" target="_blank" rel="noopener">
+          <p class="k">LinkedIn</p>
+          <p class="v">huda-rasmey</p>
+        </a>
+        <div class="contact-card">
+          <p class="k">Location</p>
+          <p class="v">Abu Dhabi, UAE</p>
+        </div>
+      </div>
+    </section>
+
   </main>
+</div>
 
+<!-- ============ MODAL ============ -->
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal">
+    <div class="modal-head">
+      <div>
+        <h3 id="modalTitle"></h3>
+        <p class="sub" id="modalSub"></p>
+      </div>
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    </div>
+    <div class="modal-media" id="modalMedia"></div>
+    <div class="modal-body">
+      <ul id="modalBullets"></ul>
+      <div class="modal-links" id="modalLinks"></div>
+    </div>
+  </div>
+</div>
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+<script src="./assets/js/projects-data.js"></script>
+<script src="./assets/js/script.js"></script>
 </body>
-
 </html>
