@@ -21,52 +21,63 @@
   <!-- ============ SIDEBAR / CHARACTER CARD ============ -->
   <aside class="sidebar">
     <div class="mobile-topbar">
-      <a href="mailto:huda.rasmey.sc@gmail.com">Email</a>
-      <a href="./assets/HudaRasmey_CV.pdf" target="_blank">CV</a>
-    </div>
-
-    <div class="portrait framed">
-      <span class="rv2"></span><span class="rv3"></span>
-      <img src="./assets/images/my-avatar.png" alt="Huda Rasmey"
-           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-      <div class="ph" style="display:none">HR</div>
-      <span class="level-badge">LVL 14</span>
-    </div>
-
-    <div class="id-block">
-      <h1 class="name">Huda Rasmey</h1>
-      <p class="class"><span>Class —</span> Unity &amp; Unreal Game Programmer</p>
-    </div>
-
-    <div class="side-skills">
-      <p class="side-skills-label">Skills</p>
-      <div class="skill-chips">
-        <span class="chip top">Unity</span>
-        <span class="chip top">C#</span>
-        <span class="chip top">Unreal Engine</span>
-        <span class="chip top">C++</span>
-        <span class="chip top">GAS</span>
-        <span class="chip">Multiplayer</span>
-        <span class="chip">Python</span>
-        <span class="chip">AI Systems</span>
-        <span class="chip">Game Design</span>
-        <span class="chip">Blueprints</span>
-        <span class="chip">Team Leadership</span>
-        <span class="chip top">Project Mgmt</span>
+      <div class="mobile-id">
+        <div class="mobile-avatar">
+          <img src="./assets/images/my-avatar.png" alt="Huda Rasmey"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="ph" style="display:none">HR</div>
+        </div>
+        <span class="mobile-name">Huda Rasmey</span>
       </div>
-      <button type="button" class="side-skills-more" data-tab-jump="skills">Full breakdown →</button>
+      <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle profile menu" aria-expanded="false">
+        <span>Profile</span><span class="chev">▾</span>
+      </button>
     </div>
 
-    <div class="contact-reveal" id="contactReveal">
-      <a href="mailto:huda.rasmey.sc@gmail.com">huda.rasmey.sc@gmail.com</a>
-      <a href="tel:+971503950918">+971 50-395-0918</a>
-      <span>Abu Dhabi, UAE</span>
-    </div>
+    <div class="sidebar-drawer" id="sidebarDrawer">
+      <div class="portrait framed">
+        <span class="rv2"></span><span class="rv3"></span>
+        <img src="./assets/images/my-avatar.png" alt="Huda Rasmey"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+        <div class="ph" style="display:none">HR</div>
+        <span class="level-badge">LVL 14</span>
+      </div>
 
-    <div class="sidebar-links">
-      <button type="button" id="contactToggleBtn">Contact Info <span>▾</span></button>
-      <a href="https://www.linkedin.com/in/huda-rasmey-6639a120" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
-      <a href="./assets/HudaRasmey_CV.pdf" target="_blank" class="primary">Download CV <span>↓</span></a>
+      <div class="id-block">
+        <h1 class="name">Huda Rasmey</h1>
+        <p class="class"><span>Class —</span> Unity &amp; Unreal Game Programmer</p>
+      </div>
+
+      <div class="side-skills">
+        <p class="side-skills-label">Skills</p>
+        <div class="skill-chips">
+          <span class="chip top">Unity</span>
+          <span class="chip top">C#</span>
+          <span class="chip top">Unreal Engine</span>
+          <span class="chip top">C++</span>
+          <span class="chip top">GAS</span>
+          <span class="chip">Multiplayer</span>
+          <span class="chip">Python</span>
+          <span class="chip">AI Systems</span>
+          <span class="chip">Game Design</span>
+          <span class="chip">Blueprints</span>
+          <span class="chip">Team Leadership</span>
+          <span class="chip top">Project Mgmt</span>
+        </div>
+        <button type="button" class="side-skills-more" data-tab-jump="skills">Full breakdown →</button>
+      </div>
+
+      <div class="contact-reveal" id="contactReveal">
+        <a href="mailto:huda.rasmey.sc@gmail.com">huda.rasmey.sc@gmail.com</a>
+        <a href="tel:+971503950918">+971 50-395-0918</a>
+        <span>Abu Dhabi, UAE</span>
+      </div>
+
+      <div class="sidebar-links">
+        <button type="button" id="contactToggleBtn">Contact Info <span>▾</span></button>
+        <a href="https://www.linkedin.com/in/huda-rasmey-6639a120" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+        <a href="./assets/HudaRasmey_CV.pdf" target="_blank" class="primary">Download CV <span>↓</span></a>
+      </div>
     </div>
   </aside>
 

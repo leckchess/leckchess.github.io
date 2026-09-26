@@ -5,6 +5,8 @@ const tabPanels = document.querySelectorAll(".tab-panel");
 function activateTab(name) {
   tabBtns.forEach((b) => b.classList.toggle("active", b.dataset.tab === name));
   tabPanels.forEach((p) => p.classList.toggle("active", p.id === `tab-${name}`));
+  document.getElementById("sidebarDrawer")?.classList.remove("open");
+  document.getElementById("mobileMenuToggle")?.setAttribute("aria-expanded", "false");
   document.querySelector(".main").scrollTo?.({ top: 0 });
   window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
   history.replaceState(null, "", `#${name}`);
@@ -22,6 +24,14 @@ if (["overview", "experience", "skills", "projects", "contact"].includes(initial
 /* ---------- sidebar skills -> jump to Skills tab ---------- */
 document.querySelectorAll("[data-tab-jump]").forEach((btn) => {
   btn.addEventListener("click", () => activateTab(btn.dataset.tabJump));
+});
+
+/* ---------- mobile profile drawer ---------- */
+const mobileMenuToggle = document.getElementById("mobileMenuToggle");
+const sidebarDrawer = document.getElementById("sidebarDrawer");
+mobileMenuToggle.addEventListener("click", () => {
+  const isOpen = sidebarDrawer.classList.toggle("open");
+  mobileMenuToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
 });
 
 /* ---------- contact reveal ---------- */
