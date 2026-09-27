@@ -164,6 +164,7 @@ button {
   top: 0;
   height: 100vh;
   overflow-y: auto;
+  min-width: 0;
 }
 
 .portrait {
@@ -352,6 +353,7 @@ button {
   max-width: 980px;
   margin: 0 auto;
   width: 100%;
+  min-width: 0;
 }
 
 .tabbar {
