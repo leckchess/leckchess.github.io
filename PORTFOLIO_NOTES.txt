@@ -1,0 +1,28 @@
+HUDA RASMEY — SENIOR PORTFOLIO REFRESH
+
+HOW TO USE
+1. Keep your existing full assets/images, assets/Videos, and CV files.
+2. Replace these four files in your full portfolio with the versions from this package:
+   - index.html
+   - assets/css/style.css
+   - assets/js/script.js
+   - assets/js/projects-data.js
+3. The image/video/CV paths intentionally match the original site structure.
+
+WHAT CHANGED
+- Repositioned the site around Senior Unreal Engine Gameplay / Systems work.
+- Replaced the tabbed character-sheet layout with a recruiter-friendly one-page technical portfolio.
+- Kept a subtle game/character-sheet identity rather than turning it into a generic corporate site.
+- Added three featured technical case studies:
+  * Dynamic Camera System
+  * Input / Ability Queue System
+  * AI Attack Token System
+- Reframed case studies around ownership, constraints, architecture, and engineering decisions.
+- Strengthened experience copy around technical ownership, architecture, mentoring, and cross-functional work.
+- Removed arbitrary 1–5 skill ratings and replaced them with evidence-based expertise groups.
+- Preserved all 32 projects; the 29 non-featured projects remain in a filterable archive.
+- Tutorial/course projects are labeled as learning projects so they don't carry the same weight as production work.
+- Added responsive mobile navigation and improved modal accessibility.
+
+ASSET NOTE
+This package intentionally does not include the large image/video folders, matching the compressed portfolio you supplied.
